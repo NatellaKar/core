@@ -4,7 +4,7 @@ const port = 3000; //порт на котором будет работать с
 const routes = require('./routes/index');
 app.use('/api', routes);
 
-//запускаем сервер на порту 3000
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
